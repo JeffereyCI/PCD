@@ -3,9 +3,9 @@ import cv2
 # declarating file for image processing
 starryNightImage = cv2.imread("starryNight.jpg") 
 
-# cv2.imshow(‘Original Image’, starryNightImage) -> showing window
-# cv2.waitKey(0) -> make not auto close window
-# cv2.destroyAllWindows() -> after X make window destroyed
+# cv2.imshow('Original Image', starryNightImage)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
 
 # GRAYSCALE
 # gray_image = cv2.cvtColor(starryNightImage, cv2.COLOR_BGR2GRAY)
