@@ -1,8 +1,8 @@
-# Load image
 import cv2
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt  # Pastikan ini benar
 
+# Load image
 img = cv2.imread('input.jpg')
 (h, w) = img.shape[:2]
 
